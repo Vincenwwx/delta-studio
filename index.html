@@ -1,10 +1,15 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Home</title>
-  </head>
-  <body>
-    <h2>Hello World!</h2>
-  </body>
-</html>
+---
+layout: default
+title: Home
+heading: Testttttt
+---
+
+<div class="navi-wrap">
+  <div class="navi-inner">
+    <ul>
+      {% for nav in site.data.portfolio.navigations %}
+        <li><a href="{{ nav.url }}">{{ nav.name }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
