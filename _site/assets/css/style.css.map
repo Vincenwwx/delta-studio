@@ -15,8 +15,8 @@
 		"@import 'vars';\n",
 		"$body-color: #515151\n",
 		"@import 'navigation';\n",
-		".navi-wrap {\n  .navi-inner {\n    position: relative;\n    text-align: right; } }\n"
+		".navi-wrap {\n  overflow: hidden;\n  flex: none;\n  height: 40px;\n  display: block;\n\n  .navi-inner {\n    position: relative;\n    text-align: right; } }\n"
 	],
 	"names": [],
-	"mappings": "AKAA,AACE,UADQ,CACR,WAAW,CAAC;EACV,QAAQ,EAAE,QAAQ;EAClB,UAAU,EAAE,KAAK,GAAG;;ALDxB,AAAA,CAAC,EAAE,CAAC,AAAA,OAAO,EAAE,CAAC,AAAA,QAAQ,CAAC;EACrB,UAAU,EAAE,UAAU,GACvB;;AAED,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,GAAG,GACjB;;AAED,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,kBAAkB;EAC/B,KAAK,EGZM,OAAO,GHanB"
+	"mappings": "AKAA,AAAA,UAAU,CAAC;EACT,QAAQ,EAAE,MAAM;EAChB,IAAI,EAAE,IAAI;EACV,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,KAAK,GAIU;EAR1B,AAME,UANQ,CAMR,WAAW,CAAC;IACV,QAAQ,EAAE,QAAQ;IAClB,UAAU,EAAE,KAAK,GAAG;;ALNxB,AAAA,CAAC,EAAE,CAAC,AAAA,OAAO,EAAE,CAAC,AAAA,QAAQ,CAAC;EACrB,UAAU,EAAE,UAAU,GACvB;;AAED,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,GAAG,GACjB;;AAED,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,kBAAkB;EAC/B,KAAK,EGZM,OAAO,GHanB"
 }

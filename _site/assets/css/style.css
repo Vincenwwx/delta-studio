@@ -1,6 +1,11 @@
-.navi-wrap .navi-inner {
-  position: relative;
-  text-align: right; }
+.navi-wrap {
+  overflow: hidden;
+  flex: none;
+  height: 40px;
+  display: block; }
+  .navi-wrap .navi-inner {
+    position: relative;
+    text-align: right; }
 
 *, *::after, *::before {
   box-sizing: border-box; }
