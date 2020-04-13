@@ -1,0 +1,22 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"style.scss",
+		"assets/css/main.scss",
+		"assets/css/2-base/_-base-dir.sass",
+		"assets/css/2-base/_vars.scss",
+		"assets/css/3-sections/_-section-dir.sass",
+		"assets/css/3-sections/_navigation.sass"
+	],
+	"sourcesContent": [
+		"@import \"main\";\n\n*, *::after, *::before {\n  box-sizing: border-box;\n}\n\nhtml {\n  line-height: 1.5;\n}\n\nbody {\n  font-family: 'Lato', sans-serif;\n  color: $body-color\n}\n",
+		"@import '2-base/-base-dir';\n@import '3-sections/-section-dir';\n",
+		"@import 'vars';\n",
+		"$body-color: #515151\n",
+		"@import 'navigation';\n",
+		".navi-wrap {\n  .navi-inner {\n    position: relative;\n    text-align: right; } }\n"
+	],
+	"names": [],
+	"mappings": "AKAA,AACE,UADQ,CACR,WAAW,CAAC;EACV,QAAQ,EAAE,QAAQ;EAClB,UAAU,EAAE,KAAK,GAAG;;ALDxB,AAAA,CAAC,EAAE,CAAC,AAAA,OAAO,EAAE,CAAC,AAAA,QAAQ,CAAC;EACrB,UAAU,EAAE,UAAU,GACvB;;AAED,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,GAAG,GACjB;;AAED,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,kBAAkB;EAC/B,KAAK,EGZM,OAAO,GHanB"
+}

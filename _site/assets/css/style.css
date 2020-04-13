@@ -1,0 +1,15 @@
+.navi-wrap .navi-inner {
+  position: relative;
+  text-align: right; }
+
+*, *::after, *::before {
+  box-sizing: border-box; }
+
+html {
+  line-height: 1.5; }
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #515151; }
+
+/*# sourceMappingURL=style.css.map */
