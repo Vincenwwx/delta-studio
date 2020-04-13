@@ -15,8 +15,8 @@
 		"@import 'vars';\n",
 		"$body-color: #515151\n",
 		"@import 'navigation';\n",
-		".navi-wrap {\n  overflow: hidden;\n  flex: none;\n  height: 40px;\n  display: block;\n\n  .navi-inner {\n    position: relative;\n    text-align: right; } }\n"
+		".navi-wrap {\n  //overflow: hidden\n  flex: none;\n  height: 40px;\n  position: relative;\n  display: block;\n\n  .navi-inner {\n    position: fixed;\n    top: 0px;\n    left: 0px;\n    right: 0px;\n\n    .navi-list {\n      list-style: none;\n      float: right;\n\n      .navi-item {\n        float: left;\n        display: block;\n        margin-right: 8px; } } } }\n"
 	],
 	"names": [],
-	"mappings": "AKAA,AAAA,UAAU,CAAC;EACT,QAAQ,EAAE,MAAM;EAChB,IAAI,EAAE,IAAI;EACV,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,KAAK,GAIU;EAR1B,AAME,UANQ,CAMR,WAAW,CAAC;IACV,QAAQ,EAAE,QAAQ;IAClB,UAAU,EAAE,KAAK,GAAG;;ALNxB,AAAA,CAAC,EAAE,CAAC,AAAA,OAAO,EAAE,CAAC,AAAA,QAAQ,CAAC;EACrB,UAAU,EAAE,UAAU,GACvB;;AAED,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,GAAG,GACjB;;AAED,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,kBAAkB;EAC/B,KAAK,EGZM,OAAO,GHanB"
+	"mappings": "AKAA,AAAA,UAAU,CAAC;EAET,IAAI,EAAE,IAAI;EACV,MAAM,EAAE,IAAI;EACZ,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,KAAK,GAekB;EApBlC,AAOE,UAPQ,CAOR,WAAW,CAAC;IACV,QAAQ,EAAE,KAAK;IACf,GAAG,EAAE,GAAG;IACR,IAAI,EAAE,GAAG;IACT,KAAK,EAAE,GAAG,GASkB;IApBhC,AAaI,UAbM,CAOR,WAAW,CAMT,UAAU,CAAC;MACT,UAAU,EAAE,IAAI;MAChB,KAAK,EAAE,KAAK,GAKY;MApB9B,AAiBM,UAjBI,CAOR,WAAW,CAMT,UAAU,CAIR,UAAU,CAAC;QACT,KAAK,EAAE,IAAI;QACX,OAAO,EAAE,KAAK;QACd,YAAY,EAAE,GAAG,GAAG;;ALlB5B,AAAA,CAAC,EAAE,CAAC,AAAA,OAAO,EAAE,CAAC,AAAA,QAAQ,CAAC;EACrB,UAAU,EAAE,UAAU,GACvB;;AAED,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,GAAG,GACjB;;AAED,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,kBAAkB;EAC/B,KAAK,EGZM,OAAO,GHanB"
 }

@@ -6,10 +6,10 @@ heading: Testttttt
 
 <div class="navi-wrap">
   <div class="navi-inner">
-    <ul>
-      {% for nav in site.data.portfolio.navigations %}
-        <li><a href="{{ nav.url }}">{{ nav.name }}</a></li>
-      {% endfor %}
-    </ul>
+      <ul class="navi-list">
+        {% for nav in site.data.portfolio.navigations %}
+          <li class="navi-item"><a href="{{ nav.url }}">{{ nav.name }}</a></li>
+        {% endfor %}
+      </ul>
   </div>
 </div>

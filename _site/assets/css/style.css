@@ -1,11 +1,20 @@
 .navi-wrap {
-  overflow: hidden;
   flex: none;
   height: 40px;
+  position: relative;
   display: block; }
   .navi-wrap .navi-inner {
-    position: relative;
-    text-align: right; }
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px; }
+    .navi-wrap .navi-inner .navi-list {
+      list-style: none;
+      float: right; }
+      .navi-wrap .navi-inner .navi-list .navi-item {
+        float: left;
+        display: block;
+        margin-right: 8px; }
 
 *, *::after, *::before {
   box-sizing: border-box; }

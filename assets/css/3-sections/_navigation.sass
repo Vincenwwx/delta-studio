@@ -1,9 +1,18 @@
 .navi-wrap
-  overflow: hidden
+  //overflow: hidden
   flex: none
   height: 40px
+  position: relative
   display: block
 
   .navi-inner
-    position: relative
-    text-align: right
+    +position(fixed, 0px 0px auto 0px)
+
+    .navi-list
+      list-style: none
+      float: right
+
+      .navi-item
+        float: left
+        display: block
+        margin-right: 8px
