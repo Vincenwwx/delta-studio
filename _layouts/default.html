@@ -5,8 +5,29 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
     <title>{{ page.title }}</title>
   </head>
-  
+
   <body>
+
+    <div class="navi-wrap">
+      <div class="navi-inner">
+          <ul class="navi-list">
+            {% for nav in site.data.portfolio.navigations %}
+              <li class="navi-item hvr-shutter-out-vertical"><a href="{{ nav.url }}" class="navi-link">{{ nav.name }}</a></li>
+            {% endfor %}
+          </ul>
+      </div>
+    </div>
+
+    <div class="header">
+      <div class="header-logo">
+        <img src="header-logoImg" alt="Logo">
+      </div>
+
+      <ul class="header-lang">
+        <li><a href="#" class="header-langItem">EN</a></li>
+        <li><a href="#" class="header-langItem">DE</a></li>
+      </ul>
+    </div>
     {{ content }}
   </body>
 </html>
