@@ -2,3 +2,5 @@ navigations:
 - {name: Portfolio, url: '#portfolio'}
 - {name: About us, url: '#about-us'}
 - {name: Contact, url: '#contact'}
+
+logoImg: Logo.png
