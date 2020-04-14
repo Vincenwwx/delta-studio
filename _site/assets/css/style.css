@@ -3673,6 +3673,11 @@
       padding: 0;
       margin: 0; }
 
+main {
+  padding-top: 25rem;
+  display: flex;
+  flex-direction: column; }
+
 *, *::after, *::before {
   box-sizing: border-box; }
 

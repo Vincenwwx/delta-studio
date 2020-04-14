@@ -4,4 +4,19 @@ title: Home
 heading: Testttttt
 ---
 
-<p>test</p>
+<main>
+  <div class="main-container">
+    {% for project in site.data.portfolio.Projects %}
+    <div class="proj-info">
+      <div class="proj-title">{{ project.name }}</div>
+      <div class="proj-intro">
+        {{ project.introduction }}
+      </div>
+    </div>
+
+    <div class="proj-imgs">
+
+    </div>
+    {% endfor %}
+  </div>
+</main>

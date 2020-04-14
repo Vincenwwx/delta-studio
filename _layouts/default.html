@@ -11,7 +11,7 @@
     <div class="navi-wrap">
       <div class="navi-inner">
           <ul class="navi-list">
-            {% for nav in site.data.portfolio.navigations %}
+            {% for nav in site.data.portfolio.Navigations %}
               <li class="navi-item hvr-shutter-out-vertical"><a href="{{ nav.url }}" class="navi-link">{{ nav.name }}</a></li>
             {% endfor %}
           </ul>
@@ -21,7 +21,7 @@
     <div class="header">
       <div class="header-container">
         <div class="header-logo">
-          <img src="{{ site.baseurl }}/assets/img/{{ site.data.portfolio.logoImg }}" alt="Logo" class="header-logoImg">
+          <img src="{{ site.baseurl }}/assets/img/{{ site.data.portfolio.LogoImg }}" alt="Logo" class="header-logoImg">
         </div>
       </div>
 
@@ -30,6 +30,7 @@
         <li><a href="#" class="header-langItem">DE</a></li>
       </ul>
     </div>
+
     {{ content }}
 
     <footer class="footer">
