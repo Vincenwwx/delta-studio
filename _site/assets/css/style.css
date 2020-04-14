@@ -3631,19 +3631,32 @@
   top: 3rem;
   right: 0;
   left: 0; }
-  .header .header-logo {
-    margin: 0 0 0 10px;
-    width: 20%; }
-    .header .header-logo .header-logoImg {
-      width: 100%;
-      size: 50px 50px; }
+  .header .header-container {
+    background-color: white;
+    width: 20%;
+    float: left;
+    position: relative; }
+    .header .header-container .header-logo {
+      margin: 0 0 0 10px; }
+      .header .header-container .header-logo .header-logoImg {
+        width: 100%;
+        size: 50px 50px; }
   .header .header-lang {
     position: absolute;
-    top: 10px;
+    top: -10px;
     right: 10px;
     list-style: none;
+    padding: 0;
+    margin: 0;
     font-size: 10px;
-    font-weight: 200; }
+    font-weight: 100;
+    font-family: URWGroteskT-Lig,Arial,sans-serif; }
+    .header .header-lang .header-langItem {
+      text-decoration: none;
+      color: rgba(0, 0, 0, 0.8);
+      opacity: 0.5; }
+      .header .header-lang .header-langItem.is-current {
+        opacity: 1; }
 
 *, *::after, *::before {
   box-sizing: border-box; }

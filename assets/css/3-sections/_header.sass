@@ -1,19 +1,36 @@
 .header
   +position(fixed, 3rem 0 null 0)
 
-  .header-logo
-    margin: 0 0 0 10px
+  .header-container
+    background-color: white
     width: 20%
+    float: left
+    position: relative
 
+    .header-logo
+      margin: 0 0 0 10px
 
-    .header-logoImg
-      width: 100%
-      size: 50px 50px
+      .header-logoImg
+        width: 100%
+        size: 50px 50px
+
 
   .header-lang
-    +position(absolute, 10px 10px null null)
+    +position(absolute, -10px 10px null null)
     list-style: none
+    padding: 0
+    margin: 0
+
+    .header-langItem
+      text-decoration: none
+      color: rgba(0, 0, 0, 0.8)
+      opacity: 0.5
+
+      &.is-current
+        opacity: 1
 
     font:
       size: 10px
-      weight: 200
+      weight: 100
+
+      family: URWGroteskT-Lig,Arial,sans-serif
